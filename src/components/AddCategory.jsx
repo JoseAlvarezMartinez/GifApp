@@ -7,9 +7,10 @@ const AddCategory = ({ onAddCategory }) => {
     }
     function handleSubmit(event) {
         event.preventDefault()
-        if (inputValue.trim() === "") return;
+        const newValueInput = inputValue.trim()
+        if (newValueInput === "") return;
 
-        onAddCategory(inputValue)
+        onAddCategory(newValueInput)
         setInputValue("")
     }
 
