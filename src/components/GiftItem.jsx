@@ -1,4 +1,4 @@
-const GiftItem = ({ title,url }) => {
+export const GiftItem = ({ title, url }) => {
 
     return (
         <div className="card">
@@ -7,5 +7,3 @@ const GiftItem = ({ title,url }) => {
         </div>
     )
 }
-
-export default GiftItem

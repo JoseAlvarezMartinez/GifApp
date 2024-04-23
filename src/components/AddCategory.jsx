@@ -1,5 +1,5 @@
 import { useState } from "react"
-const AddCategory = ({ onAddCategory }) => {
+export const AddCategory = ({ onAddCategory }) => {
     const [inputValue, setInputValue] = useState("")
 
     function onInputChange({ target }) {
@@ -28,4 +28,3 @@ const AddCategory = ({ onAddCategory }) => {
     )
 }
 
-export default AddCategory
